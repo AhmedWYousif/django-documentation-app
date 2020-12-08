@@ -7,7 +7,7 @@ from django.db.models import F
 from django.views import generic
 
 def owner(request):
-    return HttpResponse("Hello, world. dc36f18a is the polls index.")
+    return HttpResponse("Hello, world. f7525829 is the polls index.")
 
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
